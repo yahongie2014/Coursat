@@ -1825,3 +1825,6 @@ Stack trace:
 #79 C:\xampp\htdocs\Coursat\vendor\laravel\framework\src\Illuminate\Foundation\Http\Kernel.php(99): Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter(Object(Illuminate\Http\Request))
 #80 C:\xampp\htdocs\Coursat\public\index.php(54): Illuminate\Foundation\Http\Kernel->handle(Object(Illuminate\Http\Request))
 #81 {main}  
+[2017-03-25 03:45:35] local.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'syntax error, unexpected end of file' in C:\xampp\htdocs\Coursat\storage\framework\views\0b77df7e25786adedd46ed3c00d31005c7670798.php:141
+Stack trace:
+#0 {main}  

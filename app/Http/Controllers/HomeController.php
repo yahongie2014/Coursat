@@ -35,14 +35,13 @@ class HomeController extends Controller
     }
 
    public function Profile(){
-
-        return view('website.profile');
+       $friend = User::select('*')->get();
+        return view('website.profile')->with('friend',$friend);
     }
 
     public function info(){
         $id = Request::segment(4);
         $users = User::find($id);
-
         return view('website.profile')
          ->with('users', $users);
     }

@@ -4,7 +4,7 @@ namespace App;
 
 use Illuminate\Database\Eloquent\Model;
 
-class Article extends Model
-{  
-  protected $table = 'articles';
+class Mssg extends Model
+{
+      protected $table = 'message';
 }

@@ -11,6 +11,8 @@
     <link rel="stylesheet" type="text/css" href="<?php echo e(asset('')); ?>/style/css//library/owl.carousel.css">
     <link rel="stylesheet" type="text/css" href="<?php echo e(asset('')); ?>/style/css//md-font.css">
     <link rel="stylesheet" type="text/css" href="<?php echo e(asset('')); ?>/style/css//style.css">
+    <link rel="stylesheet" href="<?php echo e(asset('')); ?>/js/form/css/sky-forms.css" type="text/css" media="all">
+
     <title><?php echo $__env->yieldContent('title'); ?></title>
 <script>
 !function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
@@ -74,7 +76,9 @@ src="https://www.facebook.com/tr?id=1031554816897182&amp;ev=PageView&amp;noscrip
                     <li class="list-item notification">
                         <div class="notification-info item-click">
                             <i class="icon md-bell"></i>
+                            <?php if(Auth::user()->id == 2): ?>
                             <span class="itemnew"></span>
+                            <?php endif; ?>
                         </div>
                         <div class="toggle-notification toggle-list">
                             <div class="list-profile-title">
@@ -210,6 +214,87 @@ src="https://www.facebook.com/tr?id=1031554816897182&amp;ev=PageView&amp;noscrip
         </div>
     </header>
     <!-- END / HEADER -->
+        <!-- PROFILE FEATURE -->
+    <section class="profile-feature">
+        <div class="awe-parallax bg-profile-feature"></div>
+        <div class="awe-overlay overlay-color-3"></div>
+        <div class="container">
+            <div class="info-author">
+                <div class="image">
+                    <img src="<?php echo e(Auth::user()->pic); ?>" alt="<?php echo e(Auth::user()->name); ?>">
+                </div>    
+                <div class="name-author">
+                    <h2 class="big"><?php echo e(Auth::user()->name); ?></h2>
+                </div>     
+                <div class="address-author">
+                    <i class="fa fa-map-marker"></i>
+                    <h3><?php echo e(Auth::user()->Address); ?></h3>
+                </div>
+            </div>
+            <div class="info-follow">
+                <div class="trophies">
+                    <span>User</span>
+                    <p>Coursat</p>
+                </div>
+                <div class="trophies">
+                    <span><?php echo e(Auth::user()->id); ?></span>
+                    <p>Id Number</p>
+                </div>
+                <div class="trophies">
+                <?php
+                        if (Auth::user()->teacher == 0 && Auth::user()->admin == 0) {
+                            echo "<span class='badge bg-red'>Student</span>";
+                        } elseif (Auth::user()->teacher == 1 && Auth::user()->admin == 0) {
+                            echo "<span class='badge bg-yellow'>Teacher</span>";
+                        } else {
+                            echo "<span class='badge bg-light-blue'>Admin</span>";
+                        }
+                        ?>
+                <p>Role Member</p>
+                </div>
+
+        </div>
+    </section>
+    <!-- END / PROFILE FEATURE -->
+
+
+    <!-- CONTEN BAR -->
+    <section class="content-bar">
+        <div class="container">
+            <ul>
+            <?php if(Auth::user()->teacher == 1): ?>
+                <li>
+                    <a href="account-teaching.html">
+                        <i class="icon md-people"></i>
+                        Publich Aticle
+                    </a>
+                </li>
+                <li>
+                    <a href="<?php echo e(URL('/profile/message.html')); ?>">
+                        <i class="icon md-email"></i>
+                        Sent Sms
+                    </a>
+                </li>
+
+                <?php else: ?>
+                <li>
+                    <a href="account-assignment.html">
+                        <i class="icon md-shopping"></i>
+                        Assignment
+                    </a>
+                </li>
+                <?php endif; ?>
+                <li>
+                    <a href="<?php echo e(url('/profile.html', Auth::user()->id)); ?>">
+                        <i class="icon md-user-minus"></i>
+                        Profile
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <!-- PROFILE -->
+
     <?php echo $__env->yieldContent('content'); ?>;
     <!-- FOOTER -->
     <footer id="footer" class="footer">

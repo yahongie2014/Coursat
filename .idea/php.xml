@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Behat">
+    <behat_settings>
+      <BehatSettings configuration_file_path="C:/Behat-3.3.0/behat.phar" behat_path="C:/Behat-3.3.0" use_configuration_file="true" />
+    </behat_settings>
+  </component>
+  <component name="PhpProjectServersManager">
+    <servers>
+      <server host="localhost" id="a99ad28f-d81f-42b4-acdc-e44079fe7d22" name="Laravel" port="8000" use_path_mappings="true" />
+    </servers>
+  </component>
+  <component name="PhpUnit">
+    <phpunit_settings>
+      <PhpUnitSettings load_method="CUSTOM_LOADER" bootstrap_file_path="$PROJECT_DIR$/bootstrap/autoload.php" configuration_file_path="$PROJECT_DIR$/.env" custom_loader_path="$PROJECT_DIR$/vendor/autoload.php" phpunit_phar_path="" use_bootstrap_file="true" use_configuration_file="true" />
+    </phpunit_settings>
+  </component>
+</project>

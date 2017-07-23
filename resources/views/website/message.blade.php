@@ -2,8 +2,7 @@
 @section('title')
 {{ Auth::user()->name }} - Sms
 @endsection
-@section('content')
-   
+@section('content')   
     <section id="course-concern" class="course-concern">
         <div class="container">
 

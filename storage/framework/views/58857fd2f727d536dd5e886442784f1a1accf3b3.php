@@ -27,19 +27,19 @@
 <!-- Bootstrap CSS -->
 <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
 <!-- Template Styles -->
-<link rel="stylesheet" href="<?php echo e(asset('')); ?>/css/style.css" type="text/css" />
-<link rel="stylesheet" href="<?php echo e(asset('')); ?>/css/font-awesome/css/font-awesome.min.css">
-<link rel="stylesheet" href="<?php echo e(asset('')); ?>/css/Simple-Line-Icons-Webfont/simple-line-icons.css"/>
-<link rel="stylesheet" href="<?php echo e(asset('')); ?>/css/et-line-font/et-line-font.css">
+<link rel="stylesheet" href="<?php echo e(asset('')); ?>css/style.css" type="text/css" />
+<link rel="stylesheet" href="<?php echo e(asset('')); ?>css/font-awesome/css/font-awesome.min.css">
+<link rel="stylesheet" href="<?php echo e(asset('')); ?>css/Simple-Line-Icons-Webfont/simple-line-icons.css"/>
+<link rel="stylesheet" href="<?php echo e(asset('')); ?>css/et-line-font/et-line-font.css">
 <!-- Magnific Popup -->
-<link rel="stylesheet" href="<?php echo e(asset('')); ?>/css/magnific-popup.css">
+<link rel="stylesheet" href="<?php echo e(asset('')); ?>css/magnific-popup.css">
 <!-- Responsive Devices Styles -->
-<link rel="stylesheet" media="screen" href="<?php echo e(asset('')); ?>/css/responsive-leyouts.css" type="text/css" />
+<link rel="stylesheet" media="screen" href="<?php echo e(asset('')); ?>css/responsive-leyouts.css" type="text/css" />
 <!-- Mega Menu -->
-<link rel="stylesheet" href="<?php echo e(asset('')); ?>/js/megamenu/stylesheets/screen.css">
+<link rel="stylesheet" href="<?php echo e(asset('')); ?>js/megamenu/stylesheets/screen.css">
 <!-- Animations -->
-<link href="<?php echo e(asset('')); ?>/js/animations/css/animations.min.css" rel="stylesheet" type="text/css" media="all" />
-<link rel="stylesheet" href="<?php echo e(asset('')); ?>/js/form/css/sky-forms.css" type="text/css" media="all">
+<link href="<?php echo e(asset('')); ?>js/animations/css/animations.min.css" rel="stylesheet" type="text/css" media="all" />
+<link rel="stylesheet" href="<?php echo e(asset('')); ?>js/form/css/sky-forms.css" type="text/css" media="all">
 </head>
 <body>
 <div class="site-wrapper" style="position: relative;">
@@ -183,21 +183,21 @@
 </div>
 <!-- end site wrapper--> 
 <a href="#" class="scrollup"></a> 
-<script src="<?php echo e(asset('')); ?>/js/jquery.js"></script> 
-<script src="<?php echo e(asset('')); ?>/js/bootstrap.min.js"></script> 
+<script src="<?php echo e(asset('')); ?>js/jquery.js"></script> 
+<script src="<?php echo e(asset('')); ?>js/bootstrap.min.js"></script> 
 <!-- Mega Menu --> 
-<script src="<?php echo e(asset('')); ?>/js/megamenu/js/main.js"></script> 
-<script src="<?php echo e(asset('')); ?>/js/megamenu/js/onepage.js"></script> 
+<script src="<?php echo e(asset('')); ?>js/megamenu/js/main.js"></script> 
+<script src="<?php echo e(asset('')); ?>js/megamenu/js/onepage.js"></script> 
 <!-- Magnific Popup --> 
-<script src="<?php echo e(asset('')); ?>/js/jquery.magnific-popup.min.js"></script> 
-<script src="<?php echo e(asset('')); ?>/js/magnific-popup-options.js"></script> 
+<script src="<?php echo e(asset('')); ?>js/jquery.magnific-popup.min.js"></script> 
+<script src="<?php echo e(asset('')); ?>js/magnific-popup-options.js"></script> 
 <!-- Counters --> 
-<script src="<?php echo e(asset('')); ?>/js/aninum/jquery.animateNumber.min.js"></script> 
+<script src="<?php echo e(asset('')); ?>js/aninum/jquery.animateNumber.min.js"></script> 
 <!-- Animations --> 
-<script src="<?php echo e(asset('')); ?>/js/animations/animations.min.js" type="text/javascript"></script> 
-<script src="<?php echo e(asset('')); ?>/js/animations/appear.min.js" type="text/javascript"></script> 
+<script src="<?php echo e(asset('')); ?>js/animations/animations.min.js" type="text/javascript"></script> 
+<script src="<?php echo e(asset('')); ?>js/animations/appear.min.js" type="text/javascript"></script> 
 <!-- Scroll Up --> 
-<script src="<?php echo e(asset('')); ?>/js/scrolltotop/totop.js" type="text/javascript"></script>
-<script src="<?php echo e(asset('')); ?>/js/form/jquery.form.min.js"></script> 
+<script src="<?php echo e(asset('')); ?>js/scrolltotop/totop.js" type="text/javascript"></script>
+<script src="<?php echo e(asset('')); ?>js/form/jquery.form.min.js"></script> 
 </body>
 </html>

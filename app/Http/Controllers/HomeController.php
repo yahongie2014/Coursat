@@ -14,13 +14,10 @@ use Illuminate\Support\Facades\Redirect;
 
 class HomeController extends Controller
 {
-    /**
-     * Create a new controller instance.
-     *
-     * @return void
-     */
+
     public function __construct()
     {
+
         $this->middleware('auth');
         $id = Request::segment(3);
     }
@@ -31,6 +28,7 @@ class HomeController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
+
     public function sent()
     {
         $Zip = '+2';
@@ -38,7 +36,11 @@ class HomeController extends Controller
         $mssg = Input::get('message');
         $title = Input::get('title');
 
-        Twilio::message($Zip.''.$phone,'Hi Seri are u Ready To go New Service');
+        try {
+            $sms = Twilio::message($Zip.''.$phone ,'Hey yasser how are you ');
+        }
+        catch (Exception $e) {
+       }
 
         $Sen = new Mssg();
         $Sen->id = input::get('id');
@@ -54,6 +56,12 @@ class HomeController extends Controller
     {
         $mg = Mssg::select('*')->get();
 
+        /*$real = Mssg::select('')
+        ->leftjoin('users','users.name','=','message.user_name')
+        ->select('message.user_name as mms_name','users.name as use_name')
+        ->where('message.user_name',$single_user->name)
+        ->paginate(10);*/
+        
         return view('website.message')->with('mg',$mg);
     }
 

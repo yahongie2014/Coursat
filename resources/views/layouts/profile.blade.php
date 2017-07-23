@@ -6,12 +6,12 @@
     <!-- Google font -->
     <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Raleway:300,400,700,900' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" type="text/css" href="{{asset('')}}/style/css/library/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="{{asset('')}}/style/css//library/font-awesome.min.css">
-    <link rel="stylesheet" type="text/css" href="{{asset('')}}/style/css//library/owl.carousel.css">
-    <link rel="stylesheet" type="text/css" href="{{asset('')}}/style/css//md-font.css">
-    <link rel="stylesheet" type="text/css" href="{{asset('')}}/style/css//style.css">
-    <link rel="stylesheet" href="{{asset('')}}/js/form/css/sky-forms.css" type="text/css" media="all">
+    <link rel="stylesheet" type="text/css" href="{{asset('')}}style/css/library/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="{{asset('')}}style/css//library/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="{{asset('')}}style/css//library/owl.carousel.css">
+    <link rel="stylesheet" type="text/css" href="{{asset('')}}style/css//md-font.css">
+    <link rel="stylesheet" type="text/css" href="{{asset('')}}style/css//style.css">
+    <link rel="stylesheet" href="{{asset('')}}js/form/css/sky-forms.css" type="text/css" media="all">
 
     <title>@yield('title')</title>
 <script>
@@ -320,12 +320,12 @@ src="https://www.facebook.com/tr?id=1031554816897182&amp;ev=PageView&amp;noscrip
     </footer>
     <!-- END / FOOTER -->
 </div>
-<script type="text/javascript" src="{{asset('')}}/style/js/library/jquery-1.11.0.min.js"></script>
-<script type="text/javascript" src="{{asset('')}}/style/js/library/bootstrap.min.js"></script>
-<script type="text/javascript" src="{{asset('')}}/style/js/library/jquery.owl.carousel.js"></script>
-<script type="text/javascript" src="{{asset('')}}/style/js/library/jquery.appear.min.js"></script>
-<script type="text/javascript" src="{{asset('')}}/style/js/library/perfect-scrollbar.min.js"></script>
-<script type="text/javascript" src="{{asset('')}}/style/js/scripts.js"></script>
+<script type="text/javascript" src="{{asset('')}}style/js/library/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="{{asset('')}}style/js/library/bootstrap.min.js"></script>
+<script type="text/javascript" src="{{asset('')}}style/js/library/jquery.owl.carousel.js"></script>
+<script type="text/javascript" src="{{asset('')}}style/js/library/jquery.appear.min.js"></script>
+<script type="text/javascript" src="{{asset('')}}style/js/library/perfect-scrollbar.min.js"></script>
+<script type="text/javascript" src="{{asset('')}}style/js/scripts.js"></script>
 <script>
     (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
     (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),

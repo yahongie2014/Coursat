@@ -1,4 +1,4 @@
-## Party (Backend Application)
+## Coursat (School Application)
 
 [![Documentation ](https://travis-ci.org/laravel/framework.svg)]( https://documenter.getpostman.com/view/2031556/party-live/6fct11D)
 [![Total Downloads](https://poser.pugx.org/laravel/framework/d/total.svg)](https://github.com/yahongie2014/Party-Backend/archive/master.zip)
